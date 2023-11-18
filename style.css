@@ -1,0 +1,152 @@
+html{
+  scroll-behavior: smooth;
+}
+
+nav{
+  z-index: 1000;
+}
+
+img{
+  font-style: italic;
+}
+
+.navbar-brand{
+  font-weight: 500;
+  font-family: 'Oswald';
+}
+
+.active{
+  color: blue;
+}
+
+.navbar{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-item a{
+  color: #9f9f9f;
+  font-weight: 500;
+}
+
+.nav-item a:hover{
+  color: blue;
+}
+
+.home-hero-section{
+  height: 100vh;
+  background-image: linear-gradient(to right, #D65DB1, #FFC75F);
+  position: relative;
+}
+
+.div-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6{
+  font-family: 'Bebas Neue';
+}
+
+p{
+  font-family: 'Source Sans Pro';
+}
+
+.navbar{
+  background-color: #ffffff;
+}
+
+.skills{
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.sub-skills{
+  font-family: 'Open Sans';
+  background-color: rgba(170, 170, 170, 0.365);
+  border-radius: 10%;
+  font-weight: 700;
+  color: grey;
+  text-align: center;
+}
+
+.social-media-container{
+  display: none;
+}
+
+.btn{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+#projects{
+  background-image: url(vecteezy_white-and-gray-abstract-background-trendy-white-futuristic_9322054.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#projects-carousel{
+  display: none;
+}
+
+.card:hover{
+  transform: translateY(-30px);
+  transition: 0.5s;
+  z-index: 100;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+#projects-card{
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 1em;
+}
+
+.input-container{
+  display: grid;
+  gap: 1em;
+}
+
+form{
+  font-family: 'Source Sans Pro';
+}
+
+.input-label{
+  font-weight: 700;
+}
+
+.input{
+  border: 1px solid rgba(128, 128, 128, 0.318);
+  background-color: #8080802b;
+  font-weight: 700;
+}
+
+.icon{
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.icon a{
+  color: #f8f8f8;
+}
+
+.icon a:hover{
+  color: #8080804d;
+}
+
+.footer-container{
+  color: #f8f8f8;
+}
+
