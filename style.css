@@ -98,10 +98,16 @@ p{
   display: none;
 }
 
+.card{
+  box-shadow: 3px 3px 10px grey;
+}
+
 .card:hover{
   transform: translateY(-30px);
   transition: 0.5s;
   z-index: 100;
+  box-shadow: 5px 5px 15px black;
+  cursor: pointer;
 }
 
 .wrap{
